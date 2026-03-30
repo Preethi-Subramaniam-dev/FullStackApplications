@@ -1,0 +1,9 @@
+﻿using AssetManagementSystem.Models;
+
+namespace AssetManagementSystem.Data.Repository
+{
+    public interface IAssetRepository : IAssetManagementRepository<Asset> where Asset : class
+    {
+        Task<bool>AssignToEmployeeAsync(string assetId, int employeeId);
+    }
+}

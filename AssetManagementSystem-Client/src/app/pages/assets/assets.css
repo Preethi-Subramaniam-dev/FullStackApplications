@@ -1,0 +1,49 @@
+.mat-text-primary {
+  color: var(--mat-sys-primary);
+}
+
+#add-asset {
+  float: right;
+}
+
+.asset-popup {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.asset-popup-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.asset-popup-panel {
+  position: relative;
+  width: min(540px, 95%);
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.asset-popup-panel h2 {
+  margin-top: 0;
+}
+
+.asset-popup-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+mat-form-field {
+  width: 100%;
+  display: block;
+  margin-bottom: 12px;
+}

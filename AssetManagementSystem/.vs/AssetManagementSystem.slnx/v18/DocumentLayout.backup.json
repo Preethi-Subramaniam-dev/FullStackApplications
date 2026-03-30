@@ -1,0 +1,429 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\controllers\\softwarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:controllers\\softwarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\assetsoftware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\assetsoftware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\data\\assetmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:data\\assetmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\mapperconfiguration\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:mapperconfiguration\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\softwarelicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\softwarelicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\softwaredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\softwaredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\migrations\\assetmanagementdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:migrations\\assetmanagementdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\addassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\addassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\data\\repository\\iassetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:data\\repository\\iassetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\data\\repository\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:data\\repository\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\warrantycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\warrantycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AssetManagementDB/True/SqlTable/dbo.Employees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AssetManagementDB/True/SqlTable/dbo.Assets.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\assetassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\assetassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\data\\config\\assetconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:data\\config\\assetconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\assetmanagementsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:assetmanagementsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\migrations\\20260329202927_initialdbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:migrations\\20260329202927_initialdbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|c:\\users\\sridhar\\source\\iaea project\\assetmanagementsystem\\assetmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A889006F-1AA0-3FCF-BC49-51471CDCFB00}|AssetManagementSystem.csproj|solutionrelative:assetmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SoftwareLicense.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\SoftwareLicense.cs",
+              "RelativeDocumentMoniker": "Models\\SoftwareLicense.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\SoftwareLicense.cs",
+              "RelativeToolTip": "Models\\SoftwareLicense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:18:11.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AssetDTO.cs",
+              "RelativeDocumentMoniker": "Models\\AssetDTO.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AssetDTO.cs",
+              "RelativeToolTip": "Models\\AssetDTO.cs",
+              "ViewState": "AgIAAAEAAADwoosuctEtwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T15:49:19.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\MapperConfiguration\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "MapperConfiguration\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\MapperConfiguration\\AutoMapperConfig.cs",
+              "RelativeToolTip": "MapperConfiguration\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T17:21:21.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssetSoftware.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AssetSoftware.cs",
+              "RelativeDocumentMoniker": "Models\\AssetSoftware.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AssetSoftware.cs",
+              "RelativeToolTip": "Models\\AssetSoftware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T01:52:41.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoftwareController.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Controllers\\SoftwareController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SoftwareController.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Controllers\\SoftwareController.cs",
+              "RelativeToolTip": "Controllers\\SoftwareController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:42:12.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssetManagementDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\AssetManagementDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\AssetManagementDBContext.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\AssetManagementDBContext.cs",
+              "RelativeToolTip": "Data\\AssetManagementDBContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T01:21:41.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SoftwareDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\SoftwareDTO.cs",
+              "RelativeDocumentMoniker": "Models\\SoftwareDTO.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\SoftwareDTO.cs",
+              "RelativeToolTip": "Models\\SoftwareDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:19:27.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAsAAACQLrroRRcwwBIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:41:10.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssetManagementDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Migrations\\AssetManagementDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AssetManagementDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Migrations\\AssetManagementDBContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AssetManagementDBContextModelSnapshot.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAIAwwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:43:30.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "Models\\Asset.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\Asset.cs",
+              "RelativeToolTip": "Models\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:46:58.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddAssetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AddAssetDTO.cs",
+              "RelativeDocumentMoniker": "Models\\AddAssetDTO.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AddAssetDTO.cs",
+              "RelativeToolTip": "Models\\AddAssetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T03:27:57.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\EmployeeDTO.cs",
+              "RelativeToolTip": "Models\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T01:35:23.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:49:39.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssetController.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Controllers\\AssetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AssetController.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Controllers\\AssetController.cs",
+              "RelativeToolTip": "Controllers\\AssetController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAApwLsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:45:53.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AssetManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\AssetManagementSystem.csproj",
+              "RelativeDocumentMoniker": "AssetManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\AssetManagementSystem.csproj",
+              "RelativeToolTip": "AssetManagementSystem.csproj",
+              "ViewState": "AgIAAA0AAAAAAAAAAEBlwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T11:03:59.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAssetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\Repository\\IAssetRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\IAssetRepository.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\Repository\\IAssetRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\IAssetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T00:39:17.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:11:56.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AssetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\Repository\\AssetRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\AssetRepository.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\Repository\\AssetRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\AssetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T00:41:02.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WarrantyCard.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\WarrantyCard.cs",
+              "RelativeDocumentMoniker": "Models\\WarrantyCard.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\WarrantyCard.cs",
+              "RelativeToolTip": "Models\\WarrantyCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:53:56.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssetAssignmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AssetAssignmentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\AssetAssignmentDTO.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\AssetAssignmentDTO.cs",
+              "RelativeToolTip": "Models\\AssetAssignmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:17:59.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dbo.Assets.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AssetManagementDB/True/SqlTable/dbo.Assets.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AssetManagementDB/True/SqlTable/dbo.Assets.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-29T23:33:52.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.Employees.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AssetManagementDB/True/SqlTable/dbo.Employees.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AssetManagementDB/True/SqlTable/dbo.Employees.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-29T23:34:05.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssetConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\Config\\AssetConfig.cs",
+              "RelativeDocumentMoniker": "Data\\Config\\AssetConfig.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Data\\Config\\AssetConfig.cs",
+              "RelativeToolTip": "Data\\Config\\AssetConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAmJkjwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T16:17:57.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260329202927_InitialDbSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Migrations\\20260329202927_InitialDbSetup.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260329202927_InitialDbSetup.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Migrations\\20260329202927_InitialDbSetup.cs",
+              "RelativeToolTip": "Migrations\\20260329202927_InitialDbSetup.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAIBJwAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:29:27.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:58:59.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AssetManagementSystem",
+              "DocumentMoniker": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\AssetManagementSystem.csproj",
+              "RelativeDocumentMoniker": "AssetManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\Sridhar\\source\\IAEA Project\\AssetManagementSystem\\AssetManagementSystem.csproj",
+              "RelativeToolTip": "AssetManagementSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T14:01:42.613Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

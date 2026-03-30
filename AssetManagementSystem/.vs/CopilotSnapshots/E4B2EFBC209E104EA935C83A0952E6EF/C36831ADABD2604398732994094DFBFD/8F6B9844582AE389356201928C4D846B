@@ -1,0 +1,123 @@
+﻿using AssetManagementSystem.Data;
+using AssetManagementSystem.Data.Repository;
+using AssetManagementSystem.Models;
+using AutoMapper;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace AssetManagementSystem.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AssetController : ControllerBase
+    {
+        private readonly AssetManagementDBContext _context;
+        private readonly IMapper _mapper;
+        private readonly IAssetRepository _assetRepository;
+        public AssetController(IMapper mapper, IAssetRepository assetRepository, AssetManagementDBContext dBContext)
+        {
+            _assetRepository = assetRepository; 
+            _mapper = mapper;
+            _context = dBContext;
+        }
+
+        [HttpGet]
+        [Route("all", Name = "GetAllAssets")]
+        public async Task<ActionResult<IEnumerable<AssetDTO>>> GetAssetsAsyn()
+        {
+            var assets = await _assetRepository.GetAllAsync();
+            var assetDtos = _mapper.Map<List<AssetDTO>>(assets);
+            return Ok(assetDtos);
+        }
+
+        [HttpPost]
+        [Route("add")]
+        public async Task<ActionResult<AssetDTO>> AddAssetAsync([FromBody] AddAssetDTO assetDto)
+        {
+            if (assetDto == null)
+            {
+                return BadRequest("Asset data is null.");
+            }
+             var asset = _mapper.Map<Asset>(assetDto);
+             var id = await _assetRepository.AddAsync(asset);;
+             return CreatedAtRoute("GetAllAssets", new { id = asset.AssetId }, assetDto);
+        }
+
+        [HttpPut("edit/{aasetId}", Name = "UpdateeAssetById")]
+        public async Task<ActionResult> UpdateAssetAsync(string aasetId, [FromBody] AssetDTO assetDto)
+        {
+
+            if (string.IsNullOrEmpty(aasetId))
+                return BadRequest();
+
+            var existingAsset = await _assetRepository.GetAssetByIdAsync(aasetId, true);
+            if (existingAsset == null)
+                return NotFound();
+
+            _mapper.Map(assetDto, existingAsset); // update existing entity with DTO values
+            if (existingAsset.WarrantyCard != null)
+                existingAsset.WarrantyCard.Id = existingAsset.Id;
+
+            // if client supplies a StatusId, avoid accidental Status insert
+            if (assetDto.StatusId != 0)
+            {
+                existingAsset.StatusId = assetDto.StatusId;
+                var status = await _context.Statuses.FindAsync(assetDto.StatusId);
+                existingAsset.Status = status;
+            }
+            if (assetDto.EmployeeName != null)
+            {
+                var employee = await _context.Employees.FirstOrDefaultAsync(e => e.EmployeeId == existingAsset.EmployeeId);
+                if (employee != null)
+                {
+                    employee.EmployeeName = assetDto.EmployeeName;
+                    existingAsset.Employee = employee;
+                }
+                //var status = await _context.Statuses.FindAsync(assetDto.StatusId);
+                //var employee = await _context.Employees.FirstOrDefaultAsync(e => e. == assetDto.EmployeeName);
+                //if (employee != null)
+                //{
+                //    existingAsset.EmployeeId = employee.Id;
+                //    existingAsset.Employee = employee;
+                //}
+            }
+            var id = await _assetRepository.UpdateAsync(existingAsset); ;
+            return NoContent();
+        }
+
+        [HttpDelete("Delete/{id}", Name = "DeleteAssetById")]
+        public async Task<ActionResult> DeleteAssetAsync(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+                return BadRequest();
+
+            var existingAsset = await _assetRepository.GetAssetByIdAsync(id, true);
+
+            if (existingAsset == null)
+                return NotFound();
+
+            bool isDeleted = await _assetRepository.DeleteAsync(existingAsset);
+
+            return NoContent();
+        }
+
+        [HttpPut("assign/{assetid}")]
+        public async Task<ActionResult> AssignAsset([FromBody] AssetAssignmentDTO dto)
+        {
+            if (dto == null || string.IsNullOrWhiteSpace(dto.AssetId) || dto.EmployeeId <= 0)
+                return BadRequest("AssetId and EmployeeName are required.");
+
+            try
+            {
+                await _assetRepository.AssignToEmployeeAsync(dto.AssetId, dto.EmployeeId);
+                return NoContent();
+            }
+            catch (InvalidOperationException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+    }
+}

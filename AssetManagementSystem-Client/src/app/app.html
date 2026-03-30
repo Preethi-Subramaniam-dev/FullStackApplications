@@ -1,0 +1,19 @@
+<div class="app-shell" [class.nav-collapsed]="!sideNavOpen()">
+  <aside class="side-nav">
+    <button class="nav-toggle" type="button" (click)="toggleSideNav()">
+      <span *ngIf="sideNavOpen()">«</span>
+      <span *ngIf="!sideNavOpen()">☰</span>
+    </button>
+
+    <div class="brand">Asset Management</div>
+    <nav>
+      <a routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Dashboard</a>
+      <a routerLink="/employees" routerLinkActive="active">Employees</a>
+      <a routerLink="/software" routerLinkActive="active">Software</a>
+    </nav>
+  </aside>
+
+  <main class="page-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>

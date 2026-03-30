@@ -1,0 +1,176 @@
+
+<div>
+  <mat-toolbar>
+    <span>Asset Management System</span>
+  </mat-toolbar>
+</div>
+<div>
+  <button id="add-asset" (click)="onAddAsset()" mat-flat-button>Add Asset</button>
+</div>
+<br>
+<div class="asset-popup" *ngIf="popupMode">
+  <div class="asset-popup-backdrop" (click)="closePopup()"></div>
+  <div class="asset-popup-panel">
+    <h2 *ngIf="isAddMode">Add New Asset</h2>
+    <h2 *ngIf="isEditMode">Edit Asset</h2>
+    <h2 *ngIf="isAssignMode">Assign Asset</h2>
+
+    <form #addForm="ngForm" *ngIf="isAddMode" (ngSubmit)="saveAdd()">
+      <mat-form-field appearance="fill">
+        <mat-label>Asset Name</mat-label>
+        <input matInput name="name" [(ngModel)]="addAssetModel.name" required />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Serial Number</mat-label>
+        <input matInput name="serialNumber" [(ngModel)]="addAssetModel.serialNumber" required />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Warranty Provider</mat-label>
+        <input matInput name="warrantyName" [(ngModel)]="addAssetModel.warrantyName" />
+      </mat-form-field>
+
+      <div class="asset-popup-actions">
+        <button type="submit" mat-button [disabled]="addForm.invalid">Save</button>
+        <button type="button" mat-button (click)="closePopup()">Cancel</button>
+      </div>
+    </form>
+
+    <form #editForm="ngForm" *ngIf="isEditMode && popupAsset as asset" (ngSubmit)="saveEdit()">
+      <mat-form-field appearance="fill">
+        <mat-label>Asset Name</mat-label>
+        <input matInput name="name" [(ngModel)]="asset.name" required />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Serial Number</mat-label>
+        <input matInput name="serialNumber" [(ngModel)]="asset.serialNumber" required />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Warranty Provider</mat-label>
+        <input matInput name="warrantyName" [(ngModel)]="asset.warrantyName" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Employee</mat-label>
+        <input matInput name="employeeName" [(ngModel)]="asset.employeeName" />
+      </mat-form-field>
+
+      <div class="asset-popup-actions">
+        <button type="submit" mat-button [disabled]="editForm.invalid">Save</button>
+        <button type="button" mat-button (click)="closePopup()">Cancel</button>
+      </div>
+    </form>
+
+    <form #assignForm="ngForm" *ngIf="isAssignMode && popupAsset as asset" (ngSubmit)="saveAssignment()">
+      <p>Asset: <strong>{{ asset.name }}</strong> ({{ asset.assetId }})</p>
+      <mat-form-field appearance="fill">
+        <mat-label>Assign to Employee</mat-label>
+        <mat-select name="employeeId" [(ngModel)]="selectedEmployeeId" required>
+          <mat-option *ngFor="let employee of availableEmployees; trackBy: trackByEmployeeId" [value]="employee.employeeId">
+            {{ employee.employeeName }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <div class="asset-popup-actions">
+        <button type="submit" mat-button [disabled]="assignForm.invalid">Assign</button>
+        <button type="button" mat-button (click)="closePopup()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+<div>
+  <mat-form-field>
+  <mat-label>Search</mat-label>
+  <input  matInput #input (keyup)="applyFilter($event)" placeholder="Search assets">
+</mat-form-field>
+</div>
+
+<div>
+<table mat-table  matSort [dataSource]="dataSource"  (matSortChange)="announceSortChange($event)" class="mat-elevation-z8">
+
+    <!-- Asset ID -->
+    <ng-container matColumnDef="assetId">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Asset ID </th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.assetId }}
+      </td>
+    </ng-container>
+
+     <!-- Serial Number -->
+    <ng-container matColumnDef="serialNumber">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Serial </th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.serialNumber }}
+      </td>
+    </ng-container>
+
+    <!-- Name -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.name }}
+      </td>
+    </ng-container>
+
+    <!-- Status -->
+    <ng-container matColumnDef="statusName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Status </th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.statusName || 'N/A' }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="employee">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Employee Name </th>
+    <td mat-cell *matCellDef="let element"> 
+        {{element.employeeName || 'Nil'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="warrantyProvider">
+    <th mat-header-cell *matHeaderCellDef> Warranty Provider </th>
+    <td mat-cell *matCellDef="let element"> 
+        {{element.warrantyName || 'Nil'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="installedSoftwares">
+    <th mat-header-cell *matHeaderCellDef> Installed Softwares </th>
+    <td mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.softwareLicenses?.length; else noSoftware">
+        <ul class="software-list">
+          <li *ngFor="let software of element.softwareLicenses; trackBy: trackByLicenseName">{{ software.licenseName }}</li>
+        </ul>
+      </ng-container>
+      <ng-template #noSoftware>No Softwares Installed</ng-template>
+    </td>
+  </ng-container>
+  <ng-container matColumnDef="Actions">
+    <th mat-header-cell *matHeaderCellDef> Actions </th>
+    <td mat-cell *matCellDef="let element"> 
+      <span>
+        <button mat-button (click)="onEditAsset(element)">Edit</button>
+      </span>
+      <span>
+        <button mat-button (click)="onDeleteAsset(element)">Delete</button>
+      </span>
+      <span *ngIf="element.statusName === 'Available'">
+        <button mat-button (click)="onAssignAsset(element)">Assign</button>
+      </span>
+      <span *ngIf="element.statusName !== 'Available'">
+        <button mat-button disabled>Assign</button>
+      </span>
+
+    </td>
+  </ng-container>
+    <!-- Header & Rows -->
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+<!-- Row shown when there is no matching data. -->
+  <tr class="mat-row" *matNoDataRow>
+    <td class="mat-cell" [attr.colspan]="displayedColumns.length">No data matching the filter "{{input.value}}"</td>
+  </tr>
+  </table>
+</div>
