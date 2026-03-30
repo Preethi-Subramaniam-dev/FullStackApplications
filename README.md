@@ -1,9 +1,9 @@
-Asset Management System
-📌 Overview
+**Asset Management System**
+Overview
 This project is a full-stack Asset Management System designed to manage corporate hardware (e.g., laptops, monitors) and associated software licenses.
 It is built with a stateless and scalable architecture using ASP.NET Core and Angular, and fully containerized with Docker.
 
-🚀 Features
+**Features**
 Asset management (CRUD operations)
 Employee management with asset assignment
 One-to-one Warranty Card per Asset
@@ -77,56 +77,6 @@ Update asset
 PUT
 /api/assign/{assetId}
 Assign asset to employee
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Full API documentation available via Swagger.
 
