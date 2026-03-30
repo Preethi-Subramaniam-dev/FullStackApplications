@@ -158,13 +158,6 @@ namespace AssetManagementSystem.Controllers
                         employee.EmployeeName = assetDto.EmployeeName;
                         existingAsset.Employee = employee;
                     }
-                //var status = await _context.Statuses.FindAsync(assetDto.StatusId);
-                //var employee = await _context.Employees.FirstOrDefaultAsync(e => e. == assetDto.EmployeeName);
-                //if (employee != null)
-                //{
-                //    existingAsset.EmployeeId = employee.Id;
-                //    existingAsset.Employee = employee;
-                //}
                 }
 
                 await _assetRepository.UpdateAsync(existingAsset);

@@ -1,0 +1,10 @@
+services:
+  asset-management-client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: asset-management-system-client:latest
+    container_name: asset-management-system-client
+    ports:
+      - "4200:80"
+    restart: unless-stopped
